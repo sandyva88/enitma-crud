@@ -1,0 +1,20 @@
+spring:
+  port: 8080
+  application:
+    name: Crud-enitma
+  jackson:
+    time-zone: America/Mexico_City
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/enitma_database
+    username: user
+    password: 123
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: false
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
