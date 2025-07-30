@@ -1,9 +1,9 @@
 package com.enitma.CRUD.services;
 
-import com.enITma.CRUD.models.DataBase.Product;
-import com.enITma.CRUD.models.request.AddProductRequest;
-import com.enITma.CRUD.models.response.AddProductResponse;
-import com.enITma.CRUD.repository.ProductRepository;
+import com.enitma.CRUD.models.DataBase.Product;
+import com.enitma.CRUD.models.request.AddProductRequest;
+import com.enitma.CRUD.models.response.AddProductResponse;
+import com.enitma.CRUD.repository.ProductRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

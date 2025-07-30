@@ -1,9 +1,10 @@
 package com.enitma.CRUD.controllers;
 
-import com.enITma.CRUD.models.DataBase.Product;
-import com.enITma.CRUD.models.request.AddProductRequest;
-import com.enITma.CRUD.models.response.AddProductResponse;
-import com.enITma.CRUD.services.ProductService;
+
+import com.enitma.CRUD.models.DataBase.Product;
+import com.enitma.CRUD.models.request.AddProductRequest;
+import com.enitma.CRUD.models.response.AddProductResponse;
+import com.enitma.CRUD.services.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
